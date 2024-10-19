@@ -1,0 +1,22 @@
+
+package learnjava;
+
+public class practiceJava {
+
+	public static void main(String[] args) {
+		
+			System.out.println(calculateSum(5));
+	}
+	
+static int calculateSum(int n) {
+		
+		int sum=0;
+		
+		for (int i = 1; i <= n; i++) {
+			sum+=i;
+			
+		}
+		return sum;
+	}
+
+}

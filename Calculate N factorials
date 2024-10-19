@@ -1,0 +1,23 @@
+package learnjava;
+
+public class practiceJava {
+
+	public static void main(String[] args) {
+		 System.out.println(factorialNum(4));
+	}
+	
+	
+	//N faaactorial numbers
+	//Approach
+	//4!=1*2*3*4=24
+	static int factorialNum(int m) {
+		
+		int num=1;
+		for (int j = 1; j <= m; j++) {
+			num*=j;
+			
+		}
+		return num;
+	}
+
+}

@@ -1,0 +1,23 @@
+package learnjava;
+
+public class practiceJava {
+	
+	// is number Odd or Even
+		//num=3, so output will be odd (if remainder ==0 
+		//then number is even otherwise number is odd)
+			
+	public static void main(String[] args) {
+
+			int n=4;
+			if(n%2==0) {
+				System.out.println("number is even");
+			}
+			else {
+				System.out.println("number is odd");
+			}
+	}
+	
+}
+	
+	
+

@@ -1,0 +1,25 @@
+package learnjava;
+
+
+public class practiceJava {
+
+	public static void main(String[] args) {
+
+		 System.out.println(calculateDigitSum(432));
+	}
+	
+	// num=432,  so 4+3+2=9, output will be 9
+	static int calculateDigitSum(int n) {
+		int digitSum=0;
+		while(n>0) {
+			int lastdigit=n%10;
+			n /=10;
+			digitSum+=lastdigit;
+		}
+		return digitSum;
+	}
+	
+}
+	
+	
+

@@ -6,6 +6,7 @@ public class practiceJava {
 	public static void main(String[] args) {
 
 		 System.out.println(calculateMinNum(4,3));
+		System.out.println(calculateMaxNum(4,3));
 	}
 	
 	// min num=(4,3),  so output will be 3 
@@ -17,6 +18,18 @@ public class practiceJava {
 		 }
 
 	}
+
+	//maximum number code
+	// max num=(4,3),  so output will be 4
+	static int calculateMaxNum(int a, int b) {
+		 if(a>b) {
+			 return a;
+		 }else {
+		 return b;
+		 }
+
+	}
+
 	
 }
 	

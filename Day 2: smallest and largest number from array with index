@@ -1,0 +1,29 @@
+package learnjava;
+
+
+public class practiceJava {
+	
+	// smallest and largest number from array with index
+			
+	public static void main(String[] args) {
+
+			int arr[]= {1,2,3,46,5};
+			int num=arr[0];
+			int index=0;
+			for (int i = 1; i < arr.length; i++) {
+				if(arr[i]>num) {   //to find smallest use..if(arr[i]<num)
+					num=arr[i];
+					index=i;  // to find index of smallest/largest number
+				}
+				
+			}
+			System.out.println(num);
+			System.out.println(index);
+
+			
+	}
+	
+}
+	
+	
+

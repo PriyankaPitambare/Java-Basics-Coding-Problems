@@ -1,0 +1,24 @@
+package com.learnjava.Practicejava;
+
+import java.util.Scanner;
+
+public class Learnjava {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		///print number 1 to 5 using for loop
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter the number as input:");
+		int num=sc.nextInt();
+		
+		for (int i = 1; i <= num; i++) {
+			System.out.println(i);
+		}
+		
+	
+		
+		
+	}
+
+}

@@ -1,0 +1,33 @@
+package com.learnjava.Practicejava;
+
+import java.util.Scanner;
+
+public class Learnjava {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		//search for 3 in the insedex between [1,4]  so here will add start and end
+		
+		
+		int arr[]= {18,12,9,3,77,50};
+		int target=3;
+		
+		System.out.println(targetElement(arr,target,1,4));
+		
+		
+	}
+	
+	static int targetElement(int arr[],int target, int start,int end) {
+		
+		for (int i = start; i < end; i++) {
+			if(arr[i]==target) {
+				return arr[i];  //return i if index want to print
+			}
+			
+		}
+		return -1;
+	}
+
+}

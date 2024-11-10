@@ -1,0 +1,23 @@
+package com.learnjava.Practicejava;
+
+import java.util.Scanner;
+
+public class Learnjava {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		////take input as salary if salary > 10000 then add bonus as 2000 otherwise ads bonus as 1000
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter the salary as input:");
+		int salary=sc.nextInt();
+		
+		if(salary>10000) {
+			
+			salary=salary+2000;
+		}else {
+			salary=salary+1000;
+		}
+		System.out.println(salary);
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.learnjava.Practicejava;
+
+import java.util.Scanner;
+
+public class Learnjava {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		///check character is lowercase or uppercase
+		
+		
+		char ch='Z';
+		
+		if(ch>='a'&&ch<='z') {
+			System.out.println("charcter is lowercase");
+		}
+		else {
+			System.out.println("character is uppercase");
+		}
+		
+		
+	}
+
+}
